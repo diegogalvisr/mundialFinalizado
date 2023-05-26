@@ -29,7 +29,6 @@ public class ResultadosDAO {
     }
 
     public boolean registrarResultados(Resultados resultado) {
-        System.out.println("Error 3");
         String sql = "INSERT INTO j_galvis16.partidos (grupo, local, visitante, continente_local,continente_visitante,goles_local,goles_visitante) values("
                 + "'" + resultado.getGrupo() + "', "
                 + "'" + resultado.getLocal() + "', "
@@ -46,7 +45,6 @@ public class ResultadosDAO {
     }
 
     public List<Resultados> getSelecciones() {
-        System.out.println("ERROR 2");
         String sql = "SELECT grupo,local, visitante, continente_local,continente_visitante,goles_Local,goles_visitante FROM j_galvis16.partidos";
         List<Resultados> resultados = new ArrayList<Resultados>();
 
