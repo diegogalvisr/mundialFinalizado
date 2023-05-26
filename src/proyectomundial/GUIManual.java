@@ -71,7 +71,7 @@ public class GUIManual extends JFrame {
 
         // Se inician los componentes gráficos
         initComponents();
-        setTitle("Jeison Leal - Diego Galvis");
+        setTitle("Mundial - JUAN DIEGO GALVIS ROMERO");
         // Se configuran propiedades de nuestra Ventana
         setLocationRelativeTo(null);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
