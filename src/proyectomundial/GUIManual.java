@@ -1115,12 +1115,6 @@ public class GUIManual extends JFrame {
         jPanelRight.setPreferredSize((new java.awt.Dimension(1020, 660)));
         jPanelRight.setMaximumSize(jPanelRight.getPreferredSize());
     }
-
-    /**
-     * Función que permite pinta la barra azul del contenedor de contenidos.
-     * Barra azul que permite indicar en que sección que se encuentra navegando
-     * el usuario.
-     */
     private void pintarLabelTop() {
         jLabelTop = new JLabel();
         jLabelTop.setFont(new java.awt.Font("Liberation Sans", 1, 36)); // NOI18N
